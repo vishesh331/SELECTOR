@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOR</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="upload.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">SELECTOR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <!-- Dark Mode Toggle Button -->
+            <button class="btn btn-outline-light" id="darkModeToggle">Dark Mode</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <h1 class="text-center">Here are the various playlists</h1>
+        <h3>we are constantly trying to add new content for you </h3>
+        <div class="row" id = "cardsContainer">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="HUANS ARE TERRYFYING.jpg" class="card-img-top" alt="Video Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">Short films (animated)</h5>
+                        <p class="card-text">short films to change you perspective</p>
+                        <a href="animated_shortfilms.html" class="btn btn-primary">Check Playlist</a>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Card 2 -->
+             <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/81k974mPmwL.jpg" class="card-img-top" alt="Video Thumbnail">
+                    <div class="card-body">
+                        <h5 class="card-title">"MAHABHARAT" songs</h5>
+                        <p class="card-text"></p>
+                        <a href="mahabharat.html" class="btn btn-primary">Check Playlist</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more cards as needed -->
+        </div>
+    </div>
+
+    <!-- Bootstrap and jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+    <script src="upload.js"></script>
+    
+</body>
+</html>
